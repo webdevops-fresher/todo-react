@@ -1,0 +1,58 @@
+.container{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    margin-top:20px;
+    border:1px solid #ccc;
+    border-radius:200px 20px 200px 20px;
+    color:white;
+    background:linear-gradient(rgb(73, 143, 73),rgb(45, 187, 45))
+
+}
+
+
+.title{
+    font-family:sans-serif;
+    text-align:center;
+}
+
+.flex{
+    display:flex;
+    text-align:center;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.flex > div{
+    width:600px;
+}
+
+
+.span{
+    display:block;
+    margin-top:20px;
+}
+
+.button{
+    border:1px solid #5a80fd;
+    background:#5a80fd;
+    color:white;
+    border-radius:20px;
+}
+.button:focus{
+    border-radius:0;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .flex{
+        display:block;
+    }
+    .flex>div{
+        width:300px;
+    }
+    *{
+        color:black;
+    }
+}

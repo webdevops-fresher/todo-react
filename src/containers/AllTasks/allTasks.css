@@ -1,0 +1,13 @@
+.container{
+    border:1px solid #ccc;
+    box-shadow:0 9px 11px #ddd;
+    margin-top:20px;
+    text-align:center;
+    border-radius:200px 20px 200px 20px;
+    color:white;
+    background:linear-gradient(rgb(73, 143, 73),rgb(45, 187, 45))
+}
+.containerAll{
+    max-width:75%;
+    margin:auto;
+}
