@@ -10,7 +10,7 @@ class AllTasks extends React.Component{
     }
 
     render(){
-        let content=<h1>Loading...</h1>
+        let content=<div className={classes.loader}></div>
         if(this.props.tasks!=null){
             let retirevedTaskKeys=Object.keys(this.props.tasks);
             content=(
